@@ -1,5 +1,6 @@
 export const siteConfig = {
-  companyName: "Dismento Nigeria Ltd",
+  companyName: "Universal Engineering Pillars",
+
 colors: {
   primary: "bg-purple-900", 
   primaryHover: "hover:bg-purple-700",
