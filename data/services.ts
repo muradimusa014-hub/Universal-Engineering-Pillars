@@ -8,36 +8,36 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: "civil-structural",
-    title: "Civil & Structural Engineering",
-    shortDescription: "End-to-end structural design and infrastructure development.",
+    id: "structural-reinforcement",
+    title: "Foundation & Piling",
+    shortDescription: "Advanced foundation piling to ensure absolute stability for high-rise projects.",
     iconName: "Building",
     coreCapabilities: [
-      "Foundation Engineering",
-      "Steel & Concrete Detailing",
-      "Structural Integrity Audits"
+      "Deep Foundation Drilling",
+      "Reinforced Concrete Piling",
+      "Subsurface Soil Stabilization"
     ]
   },
   {
-    id: "project-management",
-    title: "Project & Site Management",
-    shortDescription: "Complete oversight from groundbreaking to final handover.",
+    id: "site-surveying",
+    title: "Topographical Surveying",
+    shortDescription: "Precise structural mapping to guarantee optimal land utilization.",
+    iconName: "Ruler",
+    coreCapabilities: [
+      "3D Terrain Mapping",
+      "Geotechnical Soil Testing",
+      "Boundary & Elevation Pegging"
+    ]
+  },
+  {
+    id: "integrity-testing",
+    title: "Project Oversight & Testing",
+    shortDescription: "Non-destructive testing and stress analysis for structural frameworks.",
     iconName: "HardHat",
     coreCapabilities: [
-      "Contractor Coordination",
-      "HSE Compliance",
-      "Quality Assurance Testing"
-    ]
-  },
-  {
-    id: "procurement",
-    title: "Heavy Procurement & Logistics",
-    shortDescription: "Sourcing and transporting industrial-grade materials.",
-    iconName: "Truck",
-    coreCapabilities: [
-      "Supply Chain Optimization",
-      "Heavy Machinery Rental",
-      "Material Quality Verification"
+      "Concrete Strength Analysis",
+      "Ultrasonic Flaw Detection",
+      "Live-Load Stress Monitoring"
     ]
   }
 ];
