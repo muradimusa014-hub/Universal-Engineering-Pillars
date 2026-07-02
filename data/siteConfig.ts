@@ -1,34 +1,32 @@
 export const siteConfig = {
-  companyName: "Syal Engineering Ltd",
-  colors: {
-    primary: "bg-slate-900", 
-    primaryHover: "hover:bg-slate-800",
-    textHighlight: "text-amber-500", // Construction Amber
+  companyName: "Dismento Nigeria Ltd",
+colors: {
+  primary: "bg-purple-900", 
+  primaryHover: "hover:bg-purple-700",
+  textHighlight: "text-lime-400",
   },
   contact: {
-    phone: "+234 806 076 9201", // Syal's actual scraped number
-    email: "projects@syalengineering.com",
-    address: "Zaria Road, Kaduna, Nigeria",
-    whatsappMessage: "Hello, I would like to request a consultation regarding an upcoming project."
+    phone: "+234 802 361 9511", 
+    email: "contact@universalpillars.com.ng",
+    address: "Zaria, Kaduna State, Nigeria",
+    whatsappMessage: "Hello, I would like to submit a Request for Proposal (RFP) for your structural team."
   },
   forms: {
     contactApiKey: "YOUR_WEB3FORMS_ACCESS_KEY_HERE", 
-    newsletterSuccessMessage: "You have been added to our procurement updates list."
+    newsletterSuccessMessage: "You are now subscribed to our structural engineering insights."
   },
   about: {
-    title: "Engineering the Future",
-    description: "We are a premier heavy engineering and infrastructure development firm operating across the Kaduna-Zaria axis.",
-    mission: "To deliver structurally flawless projects on time, within budget, and strictly above national safety standards.",
-    
-    // Completely dynamic for Muradi to change per client
+    title: "Building Foundational Resilience",
+    description: "Universal Engineering Pillars provides the essential groundwork for modern construction across Zaria. From advanced foundation piling to commercial structural development, we secure the future of civil engineering through unshakeable foundations.",
+    mission: "To provide the absolute foundational integrity required for Africa's next generation of resilient infrastructure and commercial hubs.",
     coreValues: [
-      { title: "Safety First", description: "Zero-compromise HSE protocols on every active site." },
-      { title: "Precision", description: "Exacting standards from blueprint to foundation." }
+      { title: "Structural Stability", description: "Engineering foundations capable of withstanding extreme environmental and load stresses over decades." },
+      { title: "Innovative Surveying", description: "Utilizing advanced topographical mapping to ensure optimal land utilization prior to execution." }
     ],
     milestones: [
-      { year: "Phase 1", title: "Regional Expansion", desc: "Solidified operations across the Kaduna-Zaria industrial corridor." },
-      { year: "Phase 2", title: "Heavy Machinery", desc: "Acquired a robust fleet of industrial-grade equipment for large-scale procurement." },
-      { year: "Phase 3", title: "Infrastructure Dominance", desc: "Recognized as a leading contractor for high-tier development projects." }
+      { year: "Phase 1", title: "Foundation Laying", desc: "Initiated core surveying and structural reinforcement services within the Zaria region." },
+      { year: "Phase 2", title: "Commercial Shift", desc: "Transitioned into building resilient, modern commercial office spaces and structural frameworks." },
+      { year: "Phase 3", title: "Sector Dominance", desc: "Recognized as a premier entity for high-rise structural foundations and non-destructive integrity testing." }
     ]
   }
 };
